@@ -1,0 +1,32 @@
+﻿生成启动时间为 2014/3/4 9:45:54。
+     1>项目“F:\Project\sobel\sobel\sobel.vcxproj”在节点 2 上(rebuild 个目标)。
+     1>_PrepareForClean:
+         正在删除文件“Debug\sobel.lastbuildstate”。
+       InitializeBuildStatus:
+         正在创建“Debug\sobel.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         D:\program\vs2010\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt cppsobel.cpp
+         cppsobel.cpp
+     1>f:\project\sobel\sobel\cppsobel.h(95): warning C4244: “=”: 从“float”转换到“uchar”，可能丢失数据
+     1>f:\project\sobel\sobel\cppsobel.h(108): warning C4244: “=”: 从“float”转换到“uchar”，可能丢失数据
+       ManifestResourceCompile:
+         c:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\sobel.exe.embed.manifest.res" Debug\sobel_manifest.rc 
+       Link:
+         D:\program\vs2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\Project\sobel\Debug\sobel.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib D:\program\opencv1\lib\Debug\opencv_core246d.lib D:\program\opencv1\lib\Debug\opencv_flann246d.lib D:\program\opencv1\lib\Debug\opencv_imgproc246d.lib D:\program\opencv1\lib\Debug\opencv_highgui246d.lib D:\program\opencv1\lib\Debug\opencv_ml246d.lib D:\program\opencv1\lib\Debug\opencv_video246d.lib D:\program\opencv1\lib\Debug\opencv_objdetect246d.lib D:\program\opencv1\lib\Debug\opencv_photo246d.lib D:\program\opencv1\lib\Debug\opencv_nonfree246d.lib D:\program\opencv1\lib\Debug\opencv_features2d246d.lib D:\program\opencv1\lib\Debug\opencv_calib3d246d.lib D:\program\opencv1\lib\Debug\opencv_legacy246d.lib D:\program\opencv1\lib\Debug\opencv_contrib246d.lib D:\program\opencv1\lib\Debug\opencv_stitching246d.lib D:\program\opencv1\lib\Debug\opencv_videostab246d.lib D:\program\opencv1\lib\Debug\opencv_gpu246d.lib D:\program\opencv1\lib\Debug\opencv_ocl246d.lib D:\program\opencv1\3rdparty\lib\Debug\zlibd.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\sobel.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\Project\sobel\Debug\sobel.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\Project\sobel\Debug\sobel.lib" /MACHINE:X86 Debug\sobel.exe.embed.manifest.res
+         Debug\cppsobel.obj
+       Manifest:
+         正在删除文件“Debug\sobel.exe.embed.manifest”。
+         c:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\sobel.exe.embed.manifest" /manifest Debug\sobel.exe.intermediate.manifest
+         c:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\sobel.exe.embed.manifest.res" Debug\sobel_manifest.rc 
+       LinkEmbedManifest:
+         D:\program\vs2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\Project\sobel\Debug\sobel.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib D:\program\opencv1\lib\Debug\opencv_core246d.lib D:\program\opencv1\lib\Debug\opencv_flann246d.lib D:\program\opencv1\lib\Debug\opencv_imgproc246d.lib D:\program\opencv1\lib\Debug\opencv_highgui246d.lib D:\program\opencv1\lib\Debug\opencv_ml246d.lib D:\program\opencv1\lib\Debug\opencv_video246d.lib D:\program\opencv1\lib\Debug\opencv_objdetect246d.lib D:\program\opencv1\lib\Debug\opencv_photo246d.lib D:\program\opencv1\lib\Debug\opencv_nonfree246d.lib D:\program\opencv1\lib\Debug\opencv_features2d246d.lib D:\program\opencv1\lib\Debug\opencv_calib3d246d.lib D:\program\opencv1\lib\Debug\opencv_legacy246d.lib D:\program\opencv1\lib\Debug\opencv_contrib246d.lib D:\program\opencv1\lib\Debug\opencv_stitching246d.lib D:\program\opencv1\lib\Debug\opencv_videostab246d.lib D:\program\opencv1\lib\Debug\opencv_gpu246d.lib D:\program\opencv1\lib\Debug\opencv_ocl246d.lib D:\program\opencv1\3rdparty\lib\Debug\zlibd.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\sobel.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\Project\sobel\Debug\sobel.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\Project\sobel\Debug\sobel.lib" /MACHINE:X86 Debug\sobel.exe.embed.manifest.res
+         Debug\cppsobel.obj
+         sobel.vcxproj -> F:\Project\sobel\Debug\sobel.exe
+       FinalizeBuildStatus:
+         正在删除文件“Debug\sobel.unsuccessfulbuild”。
+         正在对“Debug\sobel.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“F:\Project\sobel\sobel\sobel.vcxproj”(rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:08.02
