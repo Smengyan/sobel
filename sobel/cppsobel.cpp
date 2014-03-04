@@ -45,7 +45,7 @@ void runCvSobel()
 }
 int main()
 {
-	printf("holle!");
+	printf("holle!wy");
 	runCvSobel();
 	runCppSobel();
 	cvWaitKey(0);
