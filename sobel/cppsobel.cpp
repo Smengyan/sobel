@@ -16,7 +16,6 @@ static cv::Mat loadImage(const std::string& name)
 	return image;
 }
 
-
 void runCppSobel()
 {
 	IplImage *pSrc  = cvLoadImage("temp.png",1);
